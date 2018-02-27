@@ -1,0 +1,21 @@
+{
+  "model_name":"c_graph_lm",
+  "port_base":2109,
+  "num_gpu":4,
+  "summarize_step":200,
+  "dataset":{
+    "generator":"from_smiles_to_batch",
+    "sampler":null,
+    "sampler_config":{},
+    "num_epoch":10,
+    "batch_size":50,
+    "file_name":"data/ChEMBL_prop.txt",
+    "split": 1190912,
+    "num_pool":8,
+    "kwargs":{
+      "k":5,
+      "p":0.8,
+      "conditional":true
+    }
+  }
+}

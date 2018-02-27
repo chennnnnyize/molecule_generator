@@ -1,0 +1,21 @@
+{
+  "n_node_types":33,
+  "n_edge_types":4,
+  "n_d":2,
+
+  "Fe":16,
+  "Fh":[32, 64, 128, 128, 256, 256],
+  "Fskip":512,
+  "Fh_policy":256,
+
+  "learning_rate":0.00025,
+  "decay_step":500,
+  "decay_rate":0.99,
+  "beta1":0.9,
+  "beta2":0.999,
+  "epsilon":1e-9,
+  "clip_val":3.0,
+
+  "activation":"elu",
+  "batch_norm":true
+}
