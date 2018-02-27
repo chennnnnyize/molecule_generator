@@ -49,7 +49,7 @@ CUDA_VISIBLE_DEVICES=[n-1] nohup python train.py multiple [config_dir] worker [n
 
 Where `n` is the number of GPUs used during training. The default value for `n` is 4. To change `n`,  you need to modify the corresponding config file.
 
-To train with the entire dataset, use `single-all` and `multiple-all` respectively for single and multiple GPU.
+To train with the entire dataset, use `single-full` and `multiple-full` respectively for single and multiple GPU.
 
 It should be reminded that the default config requires a large amount of memory for training. Limit the batch size or `k` in the config file if the memory resource is limited.
 
